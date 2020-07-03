@@ -1,0 +1,99 @@
+    .rounded img {
+        border-radius: 50%;
+    }
+    
+    .sm-wrapper {
+        margin-top: 100px;
+    }
+    
+    .sidemenu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #291f11;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidemenu a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 45px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        display: block;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+        transition: 0.3s;
+    }
+    
+    .sidemenu .close {
+        position: absolute;
+        top: 9;
+        right: 25px;
+        font-size: 95px;
+        margin-left: 50px;
+    }
+    
+    .sm-wrapper a:after {
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 50px;
+        background: #e85e4f;
+        content: '';
+        transition: width 0.35s ease-in-out;
+    }
+    
+    .sm-wrapper a:hover:after {
+        width: 10%;
+    }
+    
+    .sm-wrapper a:hover {
+        padding-left: 64px;
+        transition: 0.35s ease-in-out;
+    }
+    
+    #pg-content {
+        transition: margin-left 0.5s;
+        padding-top: 16px;
+        margin-top: auto;
+        position: absolute;
+        top: 0;
+    }
+    
+    span {
+        letter-spacing: 50px;
+        padding-left: 44px;
+        color: #e85e4f;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .centerdiv {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5;
+    }
+    
+    a i {
+        transition: all 0.3s linear;
+    }
+    
+    a:hover i {
+        transform: scale(1.4);
+    }
+    
+    .fa-instagram {
+        color: fuchsia;
+    }
